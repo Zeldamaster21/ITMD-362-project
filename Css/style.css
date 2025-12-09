@@ -51,7 +51,11 @@ h1, h2, h3, h4, p {
 }
 /* Profile Picture in top right corner*/
 .menu img.Profile{
-	
+	top: 15px;
+	position: absolute;
+	right: 15px;	
+	height: 100px;
+	width: 100px;
 }
 /* the confirmed sessions section*/
 .sessions{
