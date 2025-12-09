@@ -49,6 +49,10 @@ h1, h2, h3, h4, p {
 .menu-link:hover{
 	color:#800080;
 }
+/* Profile Picture in top right corner*/
+.menu img.Profile{
+	
+}
 /* the confirmed sessions section*/
 .sessions{
 	background-color: #ffffff;
