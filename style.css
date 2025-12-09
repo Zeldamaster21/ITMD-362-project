@@ -1,7 +1,5 @@
-/* Importing Google Font */
-@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
 
-/* Page styles */
+/* Page styles
 body {
     font-family: 'Courier New', monospace;
     background-color: #17AAE9;
@@ -12,13 +10,15 @@ body {
 h1, h2, h3, h4, p {
     margin: 0 0 1.5em;
 }
+*/
 
-/* Navigation Menu */
+
+/* Navigation Menu container */
 .menu {
-    background-color: #1a70c2;
-    padding: 1.5rem 0;
-    margin-bottom: 3rem;
-    text-align: center;
+    background-color: #004080;
+	color:#fff;
+    padding: 1.5rem 3rem;
+   
 }
 
 .menu h1 {
@@ -81,14 +81,6 @@ img {
     background-color: white; /* Added white background */
     padding: 10px; /* add padding around images */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
-
-/* Map styles */
-#map {
-    width: 100%; /* Ensure full width */
-    height: 400px; /* Ensure correct height */
-    border-radius: 8px; /*rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*shadow effect */
 }
 
 /* Responsive styles */
