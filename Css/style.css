@@ -68,7 +68,7 @@ h1, h2, h3, h4, p {
 	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.session h2{
+.sessions h2{
 	color: #004080;
 	margin-bottom: 1.5rem;
 	font-size: 1.6rem;
@@ -83,6 +83,50 @@ align-items: center;
 color: #555;
 font-style: italic;	
 }
+
+/* Calendar Section */
+.calendar {
+  background-color: #f0f8ff;       /* light background */
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.calendar h2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+/* Calendar Grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* this is equal to 7columns */
+  gap: 1rem;
+  text-align: center;
+}
+
+.calendar-grid div {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for days */
+.calendar-grid div:hover {
+  background-color: #ffcc00;   
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 
 /* about section */
 .about{
@@ -115,7 +159,7 @@ font-style: italic;
 
 /*tutoring info section */
 .tutoring-info{
-	background-info: #f0f8ff;
+	background-color: #f0f8ff;
 	padding: 2.5rem;
 	margin: 2.5rem auto;
 	max-width: 850px;
@@ -138,12 +182,12 @@ font-style: italic;
 
 /* tutoring sessions section */
 .tutoring-sessions{
-	background-color: #fffff;
+	background-color: #ffffff;
 	padding: 1.5rem;
 	margin: 1.5rem auto;
 	max-width: 850px;
 	border: 2px solid #ccc;
-	border-raduis: 8px;
+	border-radius: 8px;
 }
 
 .tutoring-sessions h2 {
@@ -167,7 +211,7 @@ font-style: italic;
   margin-top: 1.5rem;
 }
 
-/* Session list container (for JS to populate) */
+/* Session list container (js will help for this) */
 #session-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -201,6 +245,7 @@ img {
     padding: 10px; /* add padding around images */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+ 
 
 /* Responsive styles */
 @media (max-width: 768px) {
