@@ -101,13 +101,28 @@ font-style: italic;
   font-size: 1.6rem;
 }
 
-/* Calendar Grid */
-.calendar-grid {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 7 equal columns */
-  gap: 0.5rem;
+.calendar-week {
+  display: flex;
+  background-color: #800080;
+}
+
+.calendar-week div {
+  background-color: #ccc;
+  margin: 10px;
+  width: 108px;
   text-align: center;
 }
+
+/* 
+Calendar Grid
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);  7 equal columns
+  gap: 0.5rem;
+  text-align: center;
+} */
+
+
 .calendar-weekdays {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -124,31 +139,32 @@ font-style: italic;
   border-radius: 6px;
 }
 
-
+/* 
 .calendar-grid div {
   background-color: #ffffff;
   border: 1px solid #ccc;
   border-radius: 6px;
   padding: 1rem;
-  min-height: 60px; /* ensures boxes are tall enough */
+  min-height: 60px;  ensures boxes are tall enough 
   font-weight: bold;
   color: #333;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-/* Hover effect for days */
+
+ Hover effect for days 
 .calendar-grid div:hover {
   background-color: #ffcc00;   
   transform: scale(1.05);
   cursor: pointer;
-}
+} */
 
-.calendar-dates:{
+/* .calendar-dates{
 	background-color: #ffffff;
 	display: grid;
-	grid-template-colums: repeat (7,1fr);
+	grid-template-columns: repeat (7,1fr);
 	gap: 0.5rem;
 	text-align: center;
-}
+} */
 
 
 /* about section */
