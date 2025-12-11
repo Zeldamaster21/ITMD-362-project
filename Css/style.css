@@ -307,27 +307,7 @@ Calendar Grid
   margin-top: 1.5rem;
 }
 
-/* Session list container (js will help for this) */
-#session-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 1.5rem;
-}
 
-.session-card {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 1.5rem;
-  text-align: center;
-  transition: transform 0.2s ease;
-}
-
-.session-card:hover {
-  transform: scale(1.03);
-  border-color: #004080;
-}
 
 /* Photo styles */
 img {
