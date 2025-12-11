@@ -8,24 +8,36 @@
 
   <link rel="stylesheet" href="Css/style.css">
   <link rel="stylesheet" href="Css/rest.css">
-
-  <script src="js/script.js" defer></script>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  
+  
 </head>
 
 
 <body>
   <!-- Header / Navagation-->
-  <div class="menu" id="navigation-menu">
-    <h1 class="menu-title"> BrightPath Tutoring </h1>
-    <ul class="menu-list">
-      <li class="menu item"><a href="index.html" class="menu-link">Home</a></li>
-      <li class="menu item"><a href="page2.html" class="menu-link">Tutoring info</a></li>
-      <li class="menu item"><a href="page3.html" class="menu-link">Payment menu</a></li>
-    </ul>
-
+   <h1 class="menu-title"> BrightPath Tutoring </h1>
     <img src="Media/PF-pic.jpg" alt="Profile icon" class="Profile">
+  <div class="offscreen-menu" id="navigation-menu">
+   
+    <ul>
+      <li ><a href="index.html" class="menu-link">Home</a></li>
+      <li ><a href="page2.html" class="menu-link">Tutoring info</a></li>
+      <li ><a href="page3.html" class="menu-link">Payment menu</a></li>
+    </ul>
   </div>
 
+<nav>
+
+    <div class="ham-menu">
+      <span></span>
+	  <span></span>
+	  <span></span>
+     </div>
+
+</nav>
   <!-- Confimed sections -->
   <section class="tutoring sessions" id="preview-sessions">
     <h2 class="home box title" id="home-box-title"> comfirmed sessions</h2>
@@ -142,7 +154,7 @@
 
 
 
-
+<script src="js/script.js" defer></script>
 </body>
 
 </html>
